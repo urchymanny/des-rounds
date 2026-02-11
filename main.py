@@ -94,7 +94,7 @@ def des_round_function(r,k,s):
     return new_list
 
   expanded_R = expander(r)
-  xor_list = r_k_xor_list(expanded_R, k)
+  xor_list = make_r_k_xor_list(expanded_R, k)
   results = xor_sb_values(xor_list,s)
 
   return results
