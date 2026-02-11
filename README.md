@@ -2,7 +2,7 @@ This Python script simulates a core component of the **Data Encryption Standard 
 
 ---
 
-## ## Features
+#### Features
 
 * **Expansion Function:** Expands a 4-bit block into a 6-bit block by taking bits from adjacent neighbors, mimicking the DES expansion permutation.
 * **XOR Operation:** Performs bitwise XOR between the expanded data and the provided round key.
@@ -11,7 +11,7 @@ This Python script simulates a core component of the **Data Encryption Standard 
 
 ---
 
-## ## Code Structure
+#### Code Structure
 
 The script uses a nested function architecture within `des_round_function`:
 
@@ -22,13 +22,13 @@ The script uses a nested function architecture within `des_round_function`:
 
 ---
 
-## ## How to Use
+#### How to Use
 
-### ### Prerequisites
+###### Prerequisites
 
 * Python 3.x installed on your machine.
 
-### ### Running the Script
+###### Running the Script
 
 1. Define your **S-boxes** as a 3D list.
 2. Define your **R (Right half)** and **KEY** as lists of binary strings.
@@ -40,16 +40,12 @@ print(f"Final S-Box Output: {results}")
 
 ```
 
-```
-
 ---
 
-## ## Example Data Input
+#### Example Data Input
 
 The script is pre-loaded with:
 
 * **R:** 8 blocks of 4-bit strings.
 * **KEY:** 8 blocks of 6-bit strings.
 * **S-Boxes:** Two example  matrices.
-
-**Would you like me to refactor the code to fix the naming error and optimize the bitwise operations?**
